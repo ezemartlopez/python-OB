@@ -7,6 +7,6 @@ def es_hora_de_irse():
         print("Es hora de irse a casa.....")
     else:
         falta = ahora.time()
-        print("Quedan {}:{}:{} de trabajo.....".format(19-falta.hour,60-falta.minute,60-falta.second))
+        print("Quedan {}:{}:{} de trabajo.....".format(19-falta.hour,59-falta.minute,59-falta.second))
 
 es_hora_de_irse()
